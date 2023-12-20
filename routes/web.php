@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.layout');
 });
+
+Route::get('/new-message', function () {
+    return view('layouts.new_message');
+})->name('message');
