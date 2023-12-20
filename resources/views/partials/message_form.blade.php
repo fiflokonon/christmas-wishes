@@ -1,15 +1,15 @@
-<div class="px_main_contact" id="ch_form">
-    <div class="container justify-content-center">
-        <div class="col-lg-10 col-md-7 col-sm-12 col-xs-12">
+<div class="px_main_contact " id="ch_form">
+    <div class="container align-content-center">
+        <div class="col-lg-12 col-md-8 col-sm-12 col-xs-12">
             <div class="contact_wrapper wow slideleft" style="visibility: visible; animation-name: slideleft;"
                  style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: slideInLeft;">
                 <h1 class="ice_heading text-center fadeInUp wow" data-wow-delay="300ms"
-                    data-wow-duration="1500ms">get in touch</h1>
+                    data-wow-duration="1500ms">Entrez votre message</h1>
                 <div class="contact_form fadeInUp wow" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <form id="contactForm" class="contact-form wow fadeIn" data-toggle="validator"
                           method="post">
 
-                        <div class="row">
+                        <!--<div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input placeholder="First Name" id="fname" class="form-control" name="fname"
@@ -23,14 +23,14 @@
                                            type="text">
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="form-group">
-                            <input placeholder="Email Address" id="email" class="form-control" name="email"
-                                   type="email" required="" data-error="Please enter your valid email address">
+                            <input placeholder="Nom et prénoms" id="name" class="form-control" name="name"
+                                   type="text" required="" data-error="Please enter your valid email address">
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                                    <textarea placeholder="Your Comments" id="message" cols="20" rows="8"
+                                    <textarea placeholder="Entrez votre message" id="message" cols="20" rows="8"
                                               class="form-control" required=""
                                               data-error="Please enter your comments"></textarea>
                             <div class="help-block with-errors"></div>

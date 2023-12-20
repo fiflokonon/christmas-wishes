@@ -17,6 +17,9 @@
     {{-- @include('partials.services') --}}
     <!--services end-->
 
+    <!-- Message form start -->
+    @include('partials.message_form')
+    <!-- Message form end -->
 
     <div data-scroll-index="4" style="width:100%;">
         <!--team start-->
@@ -24,7 +27,7 @@
         <!--team end-->
 
         <!--gallery start-->
-        @include('partials.gallery')
+        {{-- @include('partials.gallery') --}}
         <!--gallery end-->
 
         <!--counter section start-->
@@ -49,8 +52,6 @@
     {{--  @include('partials.contact')  --}}
     <!--contact end-->
 
-    <!-- Message form start -->
-    @include('partials.message_form')
-    <!-- Message form end -->
+
 
 @endsection
