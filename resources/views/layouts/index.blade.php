@@ -16,14 +16,13 @@ Copyright (c) 2022 PixelNX.
 <!-- BEGIN HEAD -->
 
 <head>
-    <title>Souhaitez joyeux noel à vos amis et proches</title>
+    <title>Souhaitez joyeux noël à vos amis et proches</title>
     <!-- meta tag start-->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="">
-    <meta name="keywords"
-          content="Fashion Shop, Mobile Shop, Computer Store, Hightech Store, Gift Shop, Electronics shop">
-    <meta name="author" content="">
+    <meta name="description" content="Ecrivez un petit message afin de souhaiter joyeux noël à vos amis et proches! Dites-leur que vous pensez à eux!">
+    <meta name="keywords" content="Noël, voeux, souhaits, proches, amis">
+    <meta name="author" content="Arnaud Fifonsi">
     <meta name="MobileOptimized" content="320">
     <!--meta tag end-->
     <!--css link start-->
