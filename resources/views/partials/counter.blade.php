@@ -5,7 +5,7 @@
                 <div class="counter_section flipInY wow" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="counter">
                         <div class="px_cap">
-                            <img src="assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
+                            <img src="/assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
                                  class="img-responsive">
                         </div>
                         <h2 class="timer count-title count-number" data-from="0" data-to="252"
@@ -18,7 +18,7 @@
                 <div class="counter_section flipInY wow" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="counter">
                         <div class="px_cap">
-                            <img src="assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
+                            <img src="/assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
                                  class="img-responsive">
                         </div>
                         <h2 class="timer count-title count-number" data-from="0" data-to="105"
@@ -31,7 +31,7 @@
                 <div class="counter_section flipInY wow" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="counter">
                         <div class="px_cap">
-                            <img src="assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
+                            <img src="/assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
                                  class="img-responsive">
                         </div>
                         <h2 class="timer count-title count-number" data-from="0" data-to=500 data-speed="9000">
@@ -44,7 +44,7 @@
                 <div class="counter_section flipInY wow" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="counter">
                         <div class="px_cap">
-                            <img src="assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
+                            <img src="/assets/images/ornament/cap3.png" alt="christmas-decoration-cap"
                                  class="img-responsive">
                         </div>
                         <h2 class="timer count-title count-number" data-from="0" data-to="200"
