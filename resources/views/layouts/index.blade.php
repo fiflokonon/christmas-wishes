@@ -1,20 +1,5 @@
 <!DOCTYPE html>
-<!--
-*************************************************************************************************************************************************
-Copyright (c) 2022 PixelNX.
-********************************************************************************************************************************************** -->
-<!--
-    Template Name : Christmas Decor HTML Website Template
-    version : 1.0.0
-    Author : Kamleshyadav
- -->
-<!--[if IE 9]>
-<html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-<!-- BEGIN HEAD -->
-
+<html lang="fr">
 <head>
     <title>Souhaitez joyeux noël à vos amis et proches</title>
     <!-- meta tag start-->

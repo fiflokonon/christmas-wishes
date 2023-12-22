@@ -1,14 +1,16 @@
-
+<?php
+$currentProtocol = request()->secure() ? 'https://' : 'http://';
+?>
 <div class="px_main_contact " id="ch_form">
     <div class="container mt-5 mb-5">
         <div class="row justify-content-center">
             <h1 class="text-success text-center">Votre message a été enregistré avec succès !</h1>
             <p class="text-center">Cliquez sur le bouton <strong>copier</strong> afin de copier le lien !</p>
-            <h1 class=" text-center fadeInUp wow">Partagez-le avec vos amis !</h1>
+            <h1 class="text-center fadeInUp wow mt-2">Partagez-le avec vos amis !</h1>
             <div class="col-md-6">
                 <div class="input-group">
-                    <input id="myInput" type="text" class="form-control" value="{{ request()->getHttpHost()  }}/wishes/{{ $message->key }}" readonly>
-                    <button class="btn btn-outline-secondary" type="button" id="copyButton" data-clipboard-target="#myInput">
+                    <input type="text" class="form-control" value="{{ $currentProtocol }}{{ request()->getHttpHost()  }}/wishes/{{ $message->key }}" readonly style="font-family: Grand Hotel">
+                    <button class="btn btn-outline-secondary" type="button" id="copyButton" data-clipboard-target="#myInput" style="font-family: Grand Hotel">
                         <i class="bi bi-clipboard"></i> Copier
                     </button>
                 </div>
@@ -18,7 +20,7 @@
     <div class="container align-content-center" id="news">
         <div class="col-lg-12 col-md-8 col-sm-12 col-xs-12">
                 <div class="contact_wrapper wow slideleft" style="visibility: visible; animation-name: slideleft;" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: slideInLeft;">
-                <h1 class="ice_heading text-center fadeInUp wow" data-wow-delay="300ms" data-wow-duration="1500ms">Vous aimez ? Abonnez-vous à notre newsletter pour etre au courant des nouveautés!</h1>
+                <h1 class="ice_heading text-center fs-3 text-lowercase" data-wow-delay="300ms" data-wow-duration="1500ms" style="font-family: Grand Hotel;" > <span class="text-uppercase">V</span>ous aimez ? <span class="text-uppercase">A</span>bonnez-vous à notre newsletter pour être au courant des nouveautés!</h1>
                 <div class="contact_form fadeInUp wow" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <form id="subscribeForm" class="contact-form wow fadeIn" data-toggle="validator">
                         <div class="form-group">

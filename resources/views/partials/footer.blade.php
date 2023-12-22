@@ -10,22 +10,10 @@
                             <img src="/assets/images/logo.png" alt="christmas-decoration-logo"
                                  class="img-responsive">
                         </a>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour.</p>
+                        <p>Nous vous aidons juste à transmettre un message. Joyeux Noël!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <!--<div class="px_footer_box_text">
-                        <h3>Quick Links</h3>
-                        <ul>
-                            <li><a href="index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a>
-                            </li>
-                            <li><a href="index.html#"><i class="fa fa-angle-right" aria-hidden="true"></i>About</a></li>
-                            <li><a href="index.html#"><i class="fa fa-angle-right" aria-hidden="true"></i>blog</a></li>
-                            <li><a href="index.html#"><i class="fa fa-angle-right" aria-hidden="true"></i>contact us</a>
-                            </li>
-                        </ul>
-                    </div>-->
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="px_footer_box_text">
