@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="notranslate" translate="no">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="Un proche, un ami pense à vous à Noël! Recevez son message et faites-en de même!">
     <meta name="author" content="SvenCreations">
-
+    <meta name="google" content="notranslate"/>
     <!-- Touch icons for android and iOS (Bookmark icons) -->
     <link rel="shortcut icon" sizes="196x196" href="/assets/images/icons/icon-196x196.png">
     <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/icons/touch-icon-iphone.png">

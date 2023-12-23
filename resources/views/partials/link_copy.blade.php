@@ -5,14 +5,17 @@ $currentProtocol = request()->secure() ? 'https://' : 'http://';
     <div class="container mt-5 mb-5">
         <div class="row justify-content-center">
             <h1 class="text-success text-center">Votre message a été enregistré avec succès !</h1>
-            <p class="text-center">Cliquez sur le bouton <strong>copier</strong> afin de copier le lien !</p>
+            <p class="text-center" style="font-family: Grand Hotel">Cliquez sur le bouton <strong>copier</strong> afin de copier le lien !</p>
             <h1 class="text-center fadeInUp wow mt-2">Partagez-le avec vos amis !</h1>
             <div class="col-md-6">
                 <div class="input-group">
-                    <input type="text" class="form-control" value="{{ $currentProtocol }}{{ request()->getHttpHost()  }}/wishes/{{ $message->key }}" readonly style="font-family: Grand Hotel">
-                    <button class="btn btn-outline-secondary" type="button" id="copyButton" data-clipboard-target="#myInput" style="font-family: Grand Hotel">
+                    <input type="text" id="myInput" class="form-control" value="{{ $currentProtocol }}{{ request()->getHttpHost()  }}/wishes/{{ $message->key }}" readonly style="font-family: Grand Hotel">
+                    <button class="btn btn-outline-secondary" type="button" id="copyButton" data-clipboard-target="#myInput" style="font-family: Grand Hotel,serif">
                         <i class="bi bi-clipboard"></i> Copier
                     </button>
+                </div>
+                <div class="d-none" id="success">
+                    <h2 class="text-success text-center mt-4">Lien copié avec succès ! À vous de jouer !</h2>
                 </div>
             </div>
         </div>
@@ -87,7 +90,8 @@ $currentProtocol = request()->secure() ? 'https://' : 'http://';
             clipboard.on('success', function(e) {
                 // Vous pouvez ajouter des actions ou des messages ici en cas de succès
                 console.log('Texte copié :', e.text);
-                e.clearSelection(); // Désélectionne le texte après la copie
+                e.clearSelection();
+                $('#success').removeClass('d-none');
             });
 
             clipboard.on('error', function(e) {

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="notranslate" translate="no">
 <head>
     <title>Souhaitez joyeux noël à vos amis et proches</title>
     <!-- meta tag start-->
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Ecrivez un petit message afin de souhaiter joyeux noël à vos amis et proches! Dites-leur que vous pensez à eux!">
+    <meta name="google" content="notranslate"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta name="description" content="Ecrivez un petit message afin de souhaiter joyeux noël à vos amis et proches! Dites-leur que vous pensez à eux!"/>
     <meta name="keywords" content="Noël, voeux, souhaits, proches, amis">
     <meta name="author" content="Arnaud Fifonsi">
     <meta name="MobileOptimized" content="320">
@@ -46,8 +47,7 @@
 <script src="/assets/js/wow.js"></script>
 <!-- Clipboard.js CDN -->
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNdePPJKYq0ptBV_AFi_4RnmUtMa1ZLFg&amp;libraries=places"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNdePPJKYq0ptBV_AFi_4RnmUtMa1ZLFg&amp;libraries=places"></script>
 <script src="/assets/js/gmaps.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="/assets/js/countTo.js"></script>
