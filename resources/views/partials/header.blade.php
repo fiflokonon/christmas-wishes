@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-8 col-sm-8 col-10 col-xs-12">
                 <div class="logo_img">
-                    <div class="goto_wrapper goto"><a href="index.html#top"> <i class="fa fa-tree"></i></a></div>
+                    <div class=""><a href="index.html#top"> <i class="fa fa-tree"></i></a></div>
                     <!--<a href="index.html"><img src="/assets/images/logo.png" alt="christmas-decoration-logo" class="img-responsive"></a>-->
                 </div>
             </div>
