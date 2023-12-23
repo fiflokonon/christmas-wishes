@@ -10,7 +10,7 @@
                             <img src="/assets/images/favicon.png" alt="christmas-decoration-logo"
                                  class="img-responsive">
                         </a>
-                        <p>Nous vous aidons juste à transmettre un message. Joyeux Noël!</p>
+                        <p>Nous vous aidons juste à transmettre un message. Joyeux Noël !</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
