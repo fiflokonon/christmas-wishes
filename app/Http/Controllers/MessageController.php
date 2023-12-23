@@ -91,4 +91,15 @@ class MessageController extends Controller
         }
     }
 
+    public function getCounters() {
+        $messagesCount = Message::count();
+        $visitorsCount = $messagesCount * 4;
+
+    return response()->json([
+        'visitorsCount' => $visitorsCount,
+        'messagesCount' => $messagesCount,
+    ]);
+}
+
+
 }

@@ -83,19 +83,14 @@ $currentProtocol = request()->secure() ? 'https://' : 'http://';
                     $('#thankYouBlock').removeClass('d-none');
                 }
             });
-            // Initialise le plugin Clipboard.js
             var clipboard = new ClipboardJS('#copyButton');
-
-            // Gère les événements de réussite ou d'erreur de la copie
             clipboard.on('success', function(e) {
-                // Vous pouvez ajouter des actions ou des messages ici en cas de succès
-                console.log('Texte copié :', e.text);
+                //console.log('Texte copié :', e.text);
                 e.clearSelection();
                 $('#success').removeClass('d-none');
             });
 
             clipboard.on('error', function(e) {
-                // Vous pouvez ajouter des actions ou des messages ici en cas d'erreur
                 console.error('Erreur lors de la copie :', e.action);
             });
         });

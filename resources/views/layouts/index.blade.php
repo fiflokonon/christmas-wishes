@@ -57,6 +57,34 @@
 <script>$(function () {
         $.scrollIt();
     });</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Fonction pour mettre à jour les valeurs
+        function updateCounters() {
+            // Exemple d'URL, assurez-vous d'ajuster cela selon votre structure de routage
+            var apiUrl = window.location.protocol + '//' + window.location.host + '/api/counters';
+            // Requête Ajax pour récupérer les données
+            $.ajax({
+                url: apiUrl,
+                method: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    //console.log('Request sent');
+                    // Mettre à jour les compteurs avec les données du serveur
+                    $('#visitorsCounter').text(data.visitorsCount);
+                    $('#messagesCounter').text(data.messagesCount);
+                },
+                error: function (error) {
+                    console.error('Erreur lors de la récupération des données :', error);
+                }
+            });
+        }
+
+        // Appeler la fonction pour la première fois
+        updateCounters();
+        // Appeler la fonction une seule fois après 5 secondes
+        setTimeout(updateCounters, 15000);    });
+</script>
 <!--javascript link end-->
 </body>
 

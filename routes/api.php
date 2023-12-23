@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\SubscriptionController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -20,4 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('/newsletter/subscription', [SubscriptionController::class, 'new_subscription']);
+Route::get('/counters', [MessageController::class, 'getCounters']);
 
