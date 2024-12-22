@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="copyright_section">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <p>Copyrights &copy; 2023 All Rights Reserved</p>
+                        <p>Copyrights &copy; 2024 All Rights Reserved</p>
                     </div>
                 </div>
             </div>
