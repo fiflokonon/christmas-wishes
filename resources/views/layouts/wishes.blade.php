@@ -12,21 +12,6 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/icons/touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/icons/touch-icon-iphone-retina.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/icons/touch-icon-ipad-retina.png">
-
-    <!-- Schema.org markup for Google+ and facebook -->
-    <!-- <meta property="og:title" content="Sven">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://your-website-url.com"/>
-    <meta property="og:image" content="Use images that are at least 1200 x 630 pixels for the best display on high resolution devices">
-    <meta property="og:description" content="Sven - Creative Coming Soon Template"> -->
-
-    <!-- Schema.org markup for twitter cards(summary_large_image) -->
-    <!-- <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@username">
-    <meta name="twitter:title" content="Title should be concise and will be truncated at 70 characters.">
-    <meta name="twitter:description" content="A description that concisely summarizes the content of the page, as appropriate for presentation within a Tweet. Do not re-use the title text as the description, or use this field to describe the general services provided by the website. Description text will be truncated at the word to 200 characters.">
-    <meta name="twitter:image" content="URL to a unique image representing the content of the page. Do not use a generic image such as your website logo, author photo, or other image that spans multiple pages. Images for this Card should be at least 280px in width, and at least 150px in height. Image must be less than 1MB in size."> -->
-
     <title>Ses Vœux pour vous</title>
     <link href="/assets/css/vendor/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/assets/css/vendor/font-awesome.min.css" rel="stylesheet" type="text/css">
